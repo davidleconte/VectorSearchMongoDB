@@ -12,8 +12,8 @@ collection = db.embedded_movies
 # Set up the embedding creation function
 import requests
 
-hf_token = "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"
-embedding_url = "https://p4pmozqenx3fha3j.us-east-1.aws.endpoints.huggingface.cloud"
+hf_token = ""
+embedding_url = ""
 
 def generate_embedding(text: str) -> list[float]:
 
